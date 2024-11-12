@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="366dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="164dp"
+            android:layout_height="33dp"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="#FEFEFE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.074" />
+
+        <EditText
+            android:id="@+id/editTextRegUsername"
+            android:layout_width="303dp"
+            android:layout_height="61dp"
+            android:drawableLeft="@drawable/user_icon2"
+            android:ems="10"
+            android:hint="      Username"
+            android:inputType="text"
+            android:shadowRadius="5"
+            android:textColor="#FEFEFE"
+            android:textColorHint="#FEFEFE"
+            android:textColorLink="#F8F9FA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.527"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.217" />
+
+        <EditText
+            android:id="@+id/editTextRegPassword"
+            android:layout_width="303dp"
+            android:layout_height="61dp"
+            android:drawableLeft="@drawable/pwd"
+            android:ems="10"
+            android:hint="      Password"
+            android:inputType="textPassword"
+            android:textColor="#FEFEFE"
+            android:textColorHint="#FEFEFE"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.464" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="204dp"
+            android:layout_height="53dp"
+            android:text="Register"
+            android:textSize="19dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.719" />
+
+        <TextView
+            android:id="@+id/textViewCreateAccount"
+            android:layout_width="191dp"
+            android:layout_height="33dp"
+            android:gravity="center"
+            android:text="Already have an account ?"
+            android:textColor="#FEFEFE"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <EditText
+            android:id="@+id/editTextRegEmail"
+            android:layout_width="303dp"
+            android:layout_height="61dp"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:ems="10"
+            android:hint="          Email"
+            android:inputType="text"
+            android:paddingStart="10dp"
+            android:textColor="#FEFEFE"
+            android:textColorHint="#FEFEFE"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.527"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.341" />
+
+        <EditText
+            android:id="@+id/editTextRegConfirmPassword"
+            android:layout_width="303dp"
+            android:layout_height="62dp"
+            android:drawableLeft="@drawable/pwd"
+            android:ems="10"
+            android:hint="      Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="#FEFEFE"
+            android:textColorHint="#FEFEFE"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.593" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
